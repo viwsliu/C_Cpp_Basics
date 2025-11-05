@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+
+std::string sayHello(){
+	return "Hello from a helper function!";
+}
+
+int main() {
+	
+	std::string message = sayHello();
+	// var name message of type 'std::string'
+
+	std::cout << message <<std::endl;
+	return 0;
+}
